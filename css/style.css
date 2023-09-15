@@ -1,0 +1,42 @@
+@charset "utf-8";
+@import url("https://use.typekit.net/hxi1xol.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "forma-djr-display", sans-serif;
+}
+
+body {
+  font-size: 10px;
+  background-color: #262626;
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.advice {
+  color: #f1f1f1;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+#getAdvice {
+  border: 0;
+  background-color: orange;
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin: 50px auto 0;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
